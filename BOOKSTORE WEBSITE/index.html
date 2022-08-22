@@ -1,0 +1,239 @@
+<!-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> -->
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script language="JavaScript">
+javascript:window.history.forward(1);
+</script>
+
+
+<!-- let's add tag srping:url -->
+<spring:url value="/resources/mojo.css" var="crunchifyCSS" />
+<link href="mojo.css" rel="stylesheet" />
+
+<spring:url value="/resources/grid.css" var="gridCSS" />
+<link href="grid.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="ionicons.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" />
+<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+
+
+<!-- <%-- <spring:url value="/resources/log.jpg" var="log" /> --%> -->
+
+<!-- Finish adding tags -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" type="text/css" href="mojo.css">
+    
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    
+     <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
+     
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet"> -->
+    
+   
+     <title>BookStore | HomePage</title>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src= a.png  alt="CAP LOGO" class="logo" style="width: 180px;">
+                <div>
+                
+                <input type="search" placeholder="search for wide range" style="margin-right: -40px;"><a href="#" style="border: none; margin-left: 0px; padding-top: 5px;"><i class="icon ion-ios-search" style="font-size: 25px;
+                color: #40fc2f; padding-top: 3px; "></i></a></i>
+                <a href="#" style="border: none;"><i class="icon ion-md-log-in" style="font-size: 40px; color:#40fc2f; margin-left: 90px; padding-top: 0px; "></i></a>
+
+                    <!-- <div class="ls">
+                            <ul>
+                            <li>  <a class="btn btn-ghost js--scroll-to-fields" id="ls" href="CustomerRegister.html">Sign Up</a></li>
+                            <li> <a class="btn btn-ghost js--scroll-to-signin" id="ls" href="loginpage.html">Login</a></li>
+                    </ul>
+                    </div> -->
+            </div>   
+            <div>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#fields">Shop</a></li>
+                    <li><a href="#fields">Today's Deals</a></li>
+                    <li><a href="#domains">Sell</a></li>
+                    <li><a href="#digs">Service</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="#" style="border: none;"><i class="icon ion-ios-cart" style="color: #40fc2f; font-size: 55px; "></i></a></li>
+              
+                </ul>
+            </div>
+                    <div>
+                   
+                    </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>HOYLA! <br> PICK FROM THE BEST </h1>
+            <a class="btn btn-ghost js--scroll-to-fields" href="#works" style="align-items: center; ">Show Me More</a>
+        </div>
+
+    </header>
+
+  <!---------------------------------    #) THIS IS LAME SECTION  ---------------------------------->
+
+  <section class="section-steps" id="works">
+        <div class="row">
+            <h2 id="cart">EXPLORE WIDE RANGE OF GENRES</h2>
+        </div>
+    </section>
+
+   <!---------------------------------    4) THIS IS FIELDS SECTION  ---------------------------------->
+
+   <section class="section-fields js--section-fields" id="fields">
+    <div class="row">
+        <!--  <h2 class="fields">We're Training in these Fields</h2>  -->
+    </div>
+    <div class="row js--wp-4">
+           <ul class="fli"> 
+               <li>
+                   <div class="card">
+                    <a href="BookDetails.html"><img src="db.jpg" alt="Denim Jeans" style="width:100%"></a>
+                    <h1 style="color: #451288">DAN BROWN</h1>
+                    <p class="price">$19.99</p>
+                    <p style="color: black; margin-bottom: 5px;">Some text about the jeans. Super slim andum.</p>
+                    <p><button>Add to Cart</button></p>
+            </div>
+        </li>
+<li>
+    <div class="card">
+        <img src="harry.jpeg" alt="Denim Jeans" style="width:100%">
+        <h1 style="color: #451288">HARRY POTTER</h1>
+        <p class="price">$19.99</p>
+        <p style="color: black; margin-bottom: 5px;">Some text about the jeans. Super slim and comfy lorm.</p>
+        <p><button>Add to Cart</button></p>
+</div>
+</li>
+<li>
+    <div class="card">
+        <img src="jr.jpg" alt="Denim Jeans" style="width:100%">
+        <h1 style="color: #451288">JACK REACHER</h1>
+        <p class="price">$19.99</p>
+        <p style="color: black; margin-bottom: 5px;">Some text about the jeans. Super slim and comf</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+</li>
+<li>
+    <div class="card">
+        <img src="hg.jpg" alt="Denim Jeans" style="width:100%">
+        <h1 style="color: #451288">HUNGER GAMES</h1>
+        <p class="price">$19.99</p>
+        <p style="color: black; margin-bottom: 5px;">Some text about the jeans. Super slim.Super slim and comf</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+</li>
+
+        </ul>
+    </div>
+    <div class="col span-1-of-4 box">
+               
+    </div>
+        <div class="col span-1-of-4 box">
+               
+        </div>
+        <div class="col span-1-of-4 box">
+               
+    </div>
+</section>
+
+
+  <!---------------------------------    #) THIS IS HOW IT WORKS SECTION  ---------------------------------->
+
+  <section class="section-steps js--section-steps" id="works">
+        <div class="row">
+            <h2 id="cart">HOW IT WORKS &mdash; SIMPLE AS 1, 2, 3</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="ip.png" alt="AAC ON IPHONE" class="app-screen js--wp-2">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-steps">
+                    <div>1</div>
+                    <p style="color: #fff">Choose the items you like and those best fits you and enhances your areas of interests and sign up.</p>
+                </div>
+                <div class="works-steps">
+                    <div>2</div>
+                    <p style="color: #fff">Place your order using our website. You may even call us!</p>
+                </div>
+                <div class="works-steps">
+                    <div>3</div>
+                    <p style="color: #fff">Now, just sit back and relax. We'll bring your happiness to your doorstep. Happy Shopping!</p>
+                </div>
+
+                <a href="#" class="btn-app"><img src="app.png"/>APP STORE </a>
+                <a href="#" class="btn-app"><img src="play.png"/>PLAY STORE </a>
+            </div>
+        </div>
+    </section>
+
+ 
+        <!---------------------------------    6) THIS IS TESTIMONIALS SECTION  ---------------------------------->
+
+ <section class="section-testimonials">
+    <div>
+        <h2>Our customers, expressing their love </h2>
+    </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+            <blockquote>
+                BookStore is just awesome! I just launched a  CapStore  which makes me earn my living, so  CapStore  is a life-saver. Back then when I got into it I felt like a different world , I couldn't have achieved anything without it!
+                <cite><img src="te.jpg">Mr.Pumpkin</cite>
+            </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+            <blockquote>
+                BookStore is just awesome! I just launched a  CapStore  which makes me earn my living, so  CapStore  is a life-saver. Back then when I got into it I felt like a different world , I couldn't have achieved anything without it!
+                <cite><img src="te.jpg">Mrs.Frost </cite>
+            </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+            <blockquote>
+                BookStore is just awesome! I just launched a  CapStore  which makes me earn my living, so  CapStore  is a life-saver. Back then when I got into it I felt like a different world , I couldn't have achieved anything without it!
+                <cite><img src="te.jpg">Tom Truly</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+   <!--FOOTER-->
+
+   <footer class="depf">
+    <div class="row">
+        <div class="col span-1-of-2">
+            <ul class="footer-nav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Try New</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <p>
+            Copyright &copy; 2019 by BOOKSTORE. All rights reserved.
+        </p>
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+    </body>
+    </html>
+
